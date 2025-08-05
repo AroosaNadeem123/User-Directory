@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #1e161f;;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#searchBox {
+  padding: 10px;
+  width: 60%;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-size: 16px; 
+}
+#addBtn {
+  background-color: #00c853;
+  color: #f8f1e7;
+  font-weight: bold;
+}
+h1 {
+  color:#f8f1e7;;
+  margin-bottom: 20px;
+}
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.user-card {
+  background: #f8f1e7;
+  border-radius: 10px;
+  padding: 15px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.user-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #1e161f;;
+  margin-bottom: 10px;
+}
+
+.user-card h3 {
+  margin: 0;
+}
+
+.user-card p {
+  margin: 5px 0;
+  color: #555;
+}
+
+button {
+  padding: 6px 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  color:#f8f1e7;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #1e161f;;
+}
+
+.delete-btn {
+  background-color: #f44336;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#prevBtn, #nextBtn {
+  background-color: #1e161f;;
+  color:#f8f1e7;
+}
